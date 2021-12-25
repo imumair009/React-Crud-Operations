@@ -1,0 +1,61 @@
+.App {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.myForm {
+    margin: 0 auto;
+    width: 50%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.formField {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+}
+
+.myButton {
+    width: 100%;
+    background-color: aqua;
+    color: aliceblue;
+    padding: 14px 20 px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
